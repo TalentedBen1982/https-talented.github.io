@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Merci - Talent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Merci pour votre candidature !</h1>
+  </header>
+
+  <main>
+    <section>
+      <p>Nous avons bien reçu votre CV et nous reviendrons vers vous sous <strong>2 semaines</strong> si votre profil correspond à nos besoins.</p>
+      <p>Pour toute question concernant vos données, contactez-nous à : <a href="mailto:Benjamin.bonvalot@hotmail.fr">Benjamin.bonvalot@hotmail.fr</a></p>
+    </section>
+
+    <section>
+      <a href="index.html" class="btn">Retour à l’accueil</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Talent</p>
+  </footer>
+</body>
+</html>

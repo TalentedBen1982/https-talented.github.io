@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Politique de confidentialité - Talent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Politique de confidentialité</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Responsable du traitement</h2>
+      <p>Le responsable du traitement est : <strong>Talent</strong><br>
+      Contact : <a href="mailto:Benjamin.bonvalot@hotmail.fr">Benjamin.bonvalot@hotmail.fr</a></p>
+    </section>
+
+    <section>
+      <h2>Finalité de la collecte</h2>
+      <p>Les données collectées via le formulaire (nom, prénom, e-mail, CV, message) sont utilisées uniquement pour la gestion des candidatures et le recrutement.</p>
+    </section>
+
+    <section>
+      <h2>Base légale</h2>
+      <p>La base légale du traitement est le consentement de la personne et/ou la préparation d'une relation contractuelle.</p>
+    </section>
+
+    <section>
+      <h2>Destinataires</h2>
+      <p>Les données sont accessibles aux personnes en charge du recrutement chez Talent et aux prestataires techniques (Formspree / hébergeur). Un accord de protection des données est signé avec ces prestataires.</p>
+    </section>
+
+    <section>
+      <h2>Durée de conservation</h2>
+      <p>Les CV des candidats non retenus seront conservés pendant <strong>12 mois</strong> à compter de la réception, sauf consentement explicite du candidat pour une conservation plus longue.</p>
+    </section>
+
+    <section>
+      <h2>Droits des personnes</h2>
+      <p>Conformément au RGPD, vous disposez d’un droit d’accès, de rectification, d’effacement, de limitation, d’opposition et de portabilité. Pour exercer ces droits : <a href="mailto:Benjamin.bonvalot@hotmail.fr">Benjamin.bonvalot@hotmail.fr</a></p>
+    </section>
+
+    <section>
+      <h2>Sécurité</h2>
+      <p>Les données transitent en HTTPS et sont protégées par des mesures techniques et organisationnelles.</p>
+    </section>
+
+    <section>
+      <h2>Cookies / Trackers</h2>
+      <p>Le site n’utilise pas de cookies analytiques ou de trackers non essentiels.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Talent</p>
+  </footer>
+</body>
+</html>

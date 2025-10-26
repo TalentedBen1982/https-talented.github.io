@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #222;
+}
+
+header.hero {
+  background: #fff;
+  color: #D92B2B;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+header.hero h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+header.hero .btn {
+  background: #D92B2B;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #D92B2B;
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 20px;
+  background: #D92B2B;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+footer {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
