@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Talent - Déposez votre CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Développer votre talent dans un environnement qui vous ressemble</h1>
+    <a href="#formulaire" class="btn">Déposer mon CV</a>
+  </header>
+
+  <main>
+    <section class="apropos">
+      <h2>À propos de Talent</h2>
+      <p>Chez Talent, nous valorisons chaque profil et construisons des parcours professionnels adaptés à chacun.</p>
+    </section>
+
+    <section class="recrutement">
+      <h2>Notre méthode de recrutement</h2>
+      <ol>
+        <li>1️⃣ Dépôt de votre candidature via le formulaire</li>
+        <li>2️⃣ Entretien téléphonique ou visio</li>
+        <li>3️⃣ Entretien final avec l’équipe</li>
+        <li>4️⃣ Offre & intégration</li>
+      </ol>
+    </section>
+
+    <section class="formulaire" id="formulaire">
+      <h2>Déposer votre CV</h2>
+      <form action="https://formspree.io/f/your_form_id" method="POST" enctype="multipart/form-data">
+        <label>Prénom *</label>
+        <input type="text" name="prenom" required maxlength="100">
+
+        <label>Nom *</label>
+        <input type="text" name="nom" required maxlength="100">
+
+        <label>Email *</label>
+        <input type="email" name="email" required>
+
+        <label>Poste / Compétences</label>
+        <input type="text" name="poste" maxlength="200">
+
+        <label>Message (facultatif)</label>
+        <textarea name="message" rows="4" maxlength="2000"></textarea>
+
+        <label>CV (PDF, DOC, DOCX) *</label>
+        <input type="file" name="cv" accept=".pdf,.doc,.docx" required>
+
+        <label>
+          <input type="checkbox" name="consentement" value="yes" required>
+          J'accepte que mes données soient conservées par Talent pour la gestion de ma candidature. Voir la <a href="privacy.html">politique de confidentialité</a>.
+        </label>
+
+        <button type="submit">Envoyer ma candidature</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact : <a href="mailto:Benjamin.bonvalot@hotmail.fr">Benjamin.bonvalot@hotmail.fr</a></p>
+    <p>&copy; 2025 Talent</p>
+  </footer>
+</body>
+</html>
